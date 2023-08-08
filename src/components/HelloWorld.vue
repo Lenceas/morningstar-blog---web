@@ -19,9 +19,8 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
+    starter
   </p>
   <p>
     Install
@@ -29,6 +28,11 @@ const count = ref(0)
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <br /><br /><br /><br /><br /><br /><br /><br />
+  <div style="text-align: center;">
+    Copyright © 2023 lujiesheng.cn 版权所有　备案号：
+    <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">湘ICP备2021003806号-1</a>
+  </div>
 </template>
 
 <style scoped>
