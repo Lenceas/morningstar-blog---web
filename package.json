@@ -1,21 +1,40 @@
 {
-  "name": "morningstar-blog---web",
-  "private": true,
+  "name": "morning-star-blog",
   "version": "1.0.0",
+  "description": "晨星博客 - 个人博客",
+  "author": {
+    "name": "寥若晨星",
+    "email": "2923280915@qq.com",
+    "url": "https://github.com/Lenceas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lenceas/morningstar-blog---web.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite build && vite preview"
   },
   "dependencies": {
     "vue": "^3.4.31"
   },
   "devDependencies": {
+    "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vitejs/plugin-vue-jsx": "^4.0.0",
     "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vue-tsc": "^2.0.26"
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "element-plus",
+    "ts",
+    "typescript"
+  ],
+  "license": "MIT"
 }
